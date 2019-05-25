@@ -1,7 +1,7 @@
 # slack-bot-hive
 A prototype productivity app for Slack.
 
-Originally created as part of a hack-day idea at Madgex.
+Originally created as part of a hack-day idea at my workplace. The name "AskMadge" is a reference to the internal name given to the app within the company, which is synonymous with "slack-bot-hive".   
 
 ### What purpose does slack-bot-hive serve?
 A large amount of knowledge within the organization is considered 'tribal': unwritten rules and information known by few individuals that is constantly being accumulated. These pieces of information are usually memorized or written down on paper so although they have the potential to bring value to another, little or none of it is shared. Platforms like Confluence or Sharepoint as a central repository of data work well when utilized but can be impractical or cumbersome for recording small tidbits of data which would either not warrant a full page or deemed not worth the time to be recorded. (Plus people are lazy!) These tidbits can be written down by their collector which provides a reliable reference for the future, but requires time-consuming manual lookup. A digital file can utilize much faster lookup times but files are not often shared and still require regular updating.
