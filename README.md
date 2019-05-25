@@ -1,5 +1,6 @@
 # slack-bot-hive
 A prototype productivity app for Slack.
+
 Originally created as part of a hack-day idea at Madgex.
 
 ### What purpose does slack-bot-hive serve?
