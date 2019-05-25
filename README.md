@@ -9,11 +9,11 @@ A better solution would be to use an existing rapidly accessible platform, like 
 **Architecture**
 The AskMadge application is a .Net Core project running containerised in Docker. Storage of data is provided by an Elasticsearch stack service in AWS (can be substituted by any other ES instance). Slack events and slack actions triggered by users are passed through from the slack platform to the dotnet core API to be action-ed upon. 
 
-Programmatic connectivity to Slack is accomplished by using the Slack.Api.CSharp NuGet package. 
+Programmatic connectivity to Slack is accomplished by using the [Slack.Api.CSharp](https://github.com/JamesMarcogliese/slack-api-csharp) NuGet package. 
 
-Programmatic connectivity to ES is accomplished by using the NEST NuGet package.
+Programmatic connectivity to ES is accomplished by using the [NEST](https://github.com/elastic/elasticsearch-net) NuGet package.
 
-<img src="https://user-images.githubusercontent.com/8539492/37557057-3ad23dea-29d5-11e8-9a31-28dd64d1bf0b.PNG" width="200"/>
+![](https://user-images.githubusercontent.com/8539492/58374560-5c84fd80-7f0e-11e9-9dfa-67b981637de0.png "arch")
 
 ### Screenshots
 <p align="center">
@@ -23,3 +23,6 @@ Programmatic connectivity to ES is accomplished by using the NEST NuGet package.
  <img src="https://user-images.githubusercontent.com/8539492/37557060-3b01731c-29d5-11e8-8be3-718963e12265.PNG" width="200"/>
  <img src="https://user-images.githubusercontent.com/8539492/37557061-3b1182f2-29d5-11e8-9fdd-2e76e2d2f8c9.PNG" width="200"/>
 </p>
+
+### Setup
+Please see the wiki for Slack bot setup instructions.
