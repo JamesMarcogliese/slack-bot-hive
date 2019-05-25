@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CB86A903-0060-4A63-9023-A2DA1DC2A39F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E4B83934-8BA4-4005-8120-1B39713BD215}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "documentation", "documentation", "{BE8C7C29-DB71-4667-94C1-DACD29638708}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{6B536535-28DE-499E-8E29-3E5B137164E8}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "slack-bot-hive", "src\slack-bot-hive\slack-bot-hive.csproj", "{517F6482-9353-44F1-87EF-79DDF4FCA964}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "slack-bot-hive.FunctionalTests", "test\slack-bot-hive.FunctionalTests\slack-bot-hive.FunctionalTests.csproj", "{37F0A066-2A1A-48F5-A7CA-8016AB1603B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "slack-bot-hive.Tests", "test\slack-bot-hive.Tests\slack-bot-hive.Tests.csproj", "{41ECCD59-F63E-4D9E-8992-5DD2A7150002}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{517F6482-9353-44F1-87EF-79DDF4FCA964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{517F6482-9353-44F1-87EF-79DDF4FCA964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{517F6482-9353-44F1-87EF-79DDF4FCA964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{517F6482-9353-44F1-87EF-79DDF4FCA964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37F0A066-2A1A-48F5-A7CA-8016AB1603B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F0A066-2A1A-48F5-A7CA-8016AB1603B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F0A066-2A1A-48F5-A7CA-8016AB1603B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F0A066-2A1A-48F5-A7CA-8016AB1603B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41ECCD59-F63E-4D9E-8992-5DD2A7150002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41ECCD59-F63E-4D9E-8992-5DD2A7150002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41ECCD59-F63E-4D9E-8992-5DD2A7150002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41ECCD59-F63E-4D9E-8992-5DD2A7150002}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{517F6482-9353-44F1-87EF-79DDF4FCA964} = {CB86A903-0060-4A63-9023-A2DA1DC2A39F}
+		{37F0A066-2A1A-48F5-A7CA-8016AB1603B8} = {E4B83934-8BA4-4005-8120-1B39713BD215}
+		{41ECCD59-F63E-4D9E-8992-5DD2A7150002} = {E4B83934-8BA4-4005-8120-1B39713BD215}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF47AA1F-854B-417D-860B-D11A1D570826}
+	EndGlobalSection
+EndGlobal

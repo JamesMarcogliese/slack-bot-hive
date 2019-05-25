@@ -1,0 +1,10 @@
+**/obj
+**/bin
+.vs
+*.sh
+.git
+.gitattributes
+.gitignore
+aws
+documentation
+.editorconfig

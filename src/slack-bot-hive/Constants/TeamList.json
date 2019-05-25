@@ -1,0 +1,89 @@
+[
+  {
+    "fallback": "Upgrade your Slack client to see these options!",
+    "color": "#3AA3E3",
+    "attachment_type": "default",
+    "callback_id": "team_action",
+    "actions": [
+      {
+        "name": "teams_list",
+        "text": "Select your team...",
+        "type": "select",
+        "options": [
+          {
+            "text": "Data",
+            "value": "data"
+          },
+          {
+            "text": "Delivery",
+            "value": "delivery"
+          },
+          {
+            "text": "ER",
+            "value": "er"
+          },
+          {
+            "text": "Finance",
+            "value": "finance"
+          },
+          {
+            "text": "Human Resources",
+            "value": "hr"
+          },
+          {
+            "text": "IT",
+            "value": "it"
+          },
+          {
+            "text": "JB Enterprise",
+            "value": "jbe"
+          },
+          {
+            "text": "JB Pro",
+            "value": "jbp"
+          },
+          {
+            "text": "Madgex Inc",
+            "value": "madgexinc"
+          },
+          {
+            "text": "Marketing",
+            "value": "marketing"
+          },
+          {
+            "text": "New Product",
+            "value": "Sales"
+          },
+          {
+            "text": "Sales",
+            "value": "sales"
+          },
+          {
+            "text": "Scraping",
+            "value": "scraping"
+          },
+          {
+            "text": "Security",
+            "value": "security"
+          },
+          {
+            "text": "Service",
+            "value": "service"
+          },
+          {
+            "text": "Support",
+            "value": "support"
+          },
+          {
+            "text": "Systems",
+            "value": "systems"
+          },
+          {
+            "text": "Testing",
+            "value": "testing"
+          }
+        ]
+      }
+    ]
+  }
+]
